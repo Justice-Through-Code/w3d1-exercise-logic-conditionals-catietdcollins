@@ -45,3 +45,5 @@ def stock_purchases():
     # Use an f-string to print the result for the client, ala:
     # Alex has $5000 to invest and can buy 50 shares of Apple at the current price of $100.
     print(f'Alex has ${invest_amt} to invest and can buy {can_purchase} shares of {stock_name} at the current price of $100.')
+    
+    stock_purchases()
