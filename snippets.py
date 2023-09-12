@@ -64,8 +64,8 @@ def snippet_5():
     assert(o == True)  # <-- DO NOT EDIT THIS LINE
 
 
-# snippet_1()
-# snippet_2()
-# snippet_3()
-# snippet_4()
-# snippet_5()
+snippet_1()
+snippet_2()
+snippet_3()
+snippet_4()
+snippet_5()
