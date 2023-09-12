@@ -4,52 +4,48 @@
 # '''
 
 
-# def snippet_1():
-#     u = 5
-#     v = 2
+def snippet_1():
+    u = 5
+    v = 2
 
-#     if u * v == 10:
-#         print(f"The product of u ({u}) and v ({v}) is 10")
-#     else:
-#         print(f"The product of u ({u}) and v ({v}) is not 10")
-
-
-# def snippet_2():
-#     x = 15
-#     y = 25
-#     z = 30
-
-#     if z < x:
-#         print("z is less than x")
-        
-#     elif z > x and z < y:
-#         print("z is between x and y")
-        
-#     else:
-#         print("z is greater than y")
+    if u * v == 10:
+        print(f"The product of u ({u}) and v ({v}) is 10")
+    else:
+        print(f"The product of u ({u}) and v ({v}) is not 10")
 
 
-# def snippet_3():
-#     # TODO: Modify the comparison operator below so the `assert` statement passes
-#     # TODO: Update the print statement to reflect the fact that a 'is equal to' b
+def snippet_2():
+    x = 15
+    y = 25
+    z = 30
 
-#     a = 1
-#     b = 1
-#     c = (a >= b)
+    if z < x:
+        print("z is less than x")
+    elif z > x and z < y:
+        print("z is between x and y")    
+    else:
+        print("z is greater than y")
 
-#     print(f"The value of c ({c}) is True since a ({a}) is greater than b ({b}).")
-#     assert(c == True)  # <-- DO NOT EDIT THIS LINE
 
+def snippet_3():
+    # TODO: Modify the comparison operator below so the `assert` statement passes
+    # TODO: Update the print statement to reflect the fact that a 'is equal to' b
 
+    a = 1
+    b = 1
+    c = (a >= b)
 
-# def snippet_4():
-#     # TODO: Modify exactly one boolean operator in the assignment of d, so that d evaluates to False
+    print(f"The value of c ({c}) is True since a ({a}) is equal to b ({b}).")
+    assert(c == True)  # <-- DO NOT EDIT THIS LINE
 
-#     d = (5 < 7) and not(8 < 20)
+def snippet_4():
+    # TODO: Modify exactly one boolean operator in the assignment of d, so that d evaluates to False
+    d = (5 < 7) and not (8 < 20)
 
-#     # TODO: Explain how d is set to False in a comment
-#     assert(d == False)  # <-- DO NOT EDIT THIS LINE
-
+    # TODO: Explain how d is set to False in a comment
+    assert(d == False)  # <-- DO NOT EDIT THIS LINE
+    # d is set to False because the and operator needs both arguments to be True to run as True, and the not operator negates the True
+    # result of 8 < 20. That makes it false.
 
 def snippet_5():
     # TODO: Modify the comparison operator so o evalutes to true
@@ -60,12 +56,12 @@ def snippet_5():
 
     o = (m != n)
 
-    print (f"The value of o ({o}) is False since Python is case-sensitive.")
+    print (f"The value of o ({o}) is True since Python is case-sensitive.")
     assert(o == True)  # <-- DO NOT EDIT THIS LINE
 
 
-snippet_1()
-snippet_2()
-snippet_3()
-snippet_4()
-snippet_5()
+# snippet_1()
+# snippet_2()
+# snippet_3()
+# snippet_4()
+# snippet_5()
